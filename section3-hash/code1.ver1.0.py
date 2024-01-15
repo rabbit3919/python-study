@@ -11,7 +11,7 @@ def solution(nums):
         if cnt[i] == 1:
             return i
         
-    
+    return answer
 
 
 print(solution([3,9,2]))
