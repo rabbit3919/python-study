@@ -16,11 +16,11 @@ def solution():
     # input = 5  int(num)
     #  r = 4 3 2 1 0    int(num)
     #  i =  1 2 3 4    5-i-1
-    for i in range(1,int(num)):      # 배열을 처음부터 다시 돌면서 마지막 숫자보다 큰 숫자만큼 count = count + 1 
+    for i in range(1,int(num)):       
         if list[int(num)-i-1] > max:
             max=list[int(num)-i-1]
             count=count+1
 
     return count
-
+    
 print(solution())
